@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Website</title>
+</head>
+<body>
+    <section class="heade">
+        <div class="container">
+            <img src="./img/logo.png" alt="" class="logo">
+            <div class="header_text">
+                <h1>The purpose is to <br> teach,bring learning to people</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe labore unde id provident ab distinctio aspernatur sit nulla ullam.</p>
+                <button class="button_class">Read more</button>
+            </div>
+        </div>
+    </section>
+    <nav id="side_nav">
+        <ul>
+            <li> <a href="">HOME</a></li>
+            <li><a href="">َABOUT US</a></li>
+            <li><a href="">FEATURES</a></li>
+            <li><a href="">COURCSES</a></li>
+            <li><a href="">OFFER</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="./img/menu.png" alt="" id="menu_btn">
+
+    <section id="about">
+        <div class="left_side">
+            <img src="./img/about.png" alt="">
+        </div>
+        <div class="rhight_side">
+            <div class="text_left">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, laborum ab explicabo adipisci culpa obcaecati, non ducimus illum enim, pariatur dolorum in aperiam nostrum earum eos? Iste harum asperiores et veniam nemo quam repellat deleniti.</p>
+                <h2>Learning is not attained by chance,it must be sought for with ardor and attended to with diligence</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="featers">
+        <section class="f_row">
+            <div class="f_col">
+                <img src="./img/pic-1.png">
+                <h4>Learn Anyware</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quis.</p>
+            </div>
+            <div class="f_col">
+                <img src="./img/pic-2.png">
+                <h4>Expert techers</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quis.</p>
+            </div>
+            <div class="f_col">
+                <img src="./img/pic-3.png">
+                <h4>unlimited Access</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quis.</p>
+            </div>
+        </section>
+    </section>
+
+
+    <section id="courssess">
+        <div class="containerr">
+            <div class="cource_left">
+                <div class="cource_text">
+                    <h1>Browse our top <br> courses </h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum inventore sequi dolore quidem fugit asperiores consequatur dolorum hic excepturi debitis!</p>
+                    <button class="button_class">View All Coucess</button>
+                </div>
+            </div>
+            <div class="cource_rhight">
+                <img src="./img/course.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="offer">
+        <div class="left_side">
+            <img src="./img/offer.png" alt="">
+        </div>
+        <div class="rhight_side">
+            <div class="text_left">
+                <h1>Limtless Learning, <br> lmitles possblities</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, laborum ab explicabo adipisci culpa obcaecati, non ducimus illum enim, pariatur dolorum in aperiam nostrum earum eos? Iste harum asperiores et veniam nemo quam repellat deleniti.</p>
+                <button class="button_class">Fee trial</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="hamo row">
+            <div class="leftcol">
+                <div class="contact_div">
+                    <h1>Sign Up</h1>
+                    <form action="">
+                        <input type="text" placeholder="Entrer Name">
+                        <input type="email" placeholder="Entrer Email">
+                        <input type="password" placeholder="Entrer password">
+                        <div class="btn_box">
+                            <button class="button_class btn">Sign Up</button>
+                            <button class="button_class ">rejister</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="rhitcol">
+                <img src="img/contact.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="socialmedia">
+        <img src="./img/facebook.png" alt="">
+        <img src="./img/instagram.png" alt="">
+        <img src="./img/linkedin.png" alt="">
+        <img src="./img/twitter.png" alt="">
+    </section>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var btn = document.getElementById('menu_btn');
+    var side_n = document.getElementById('side_nav');
+    side_n.style.right = "-250px";
+
+    btn.onclick = function(){
+        if(side_n.style.right == "-250px"){
+            side_n.style.right = "0px";
+        }
+        else{
+            side_n.style.right = "-250px";
+        }
+    }
+</script>
+</html>
